@@ -1,6 +1,6 @@
 import React from 'react'
 import './Main.css';
-import {image} from 'react'
+//import {image} from 'react'
 
 const Main = () => {
   return (

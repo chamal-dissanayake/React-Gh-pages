@@ -10,7 +10,7 @@ const Navbar = () => {
         <NavMenu className="NavMenu">
         
             <div>
-            <img className="logo" src="https://agro.elzian.com/images/logo.png"/>
+            <img className="logo" src="https://agro.elzian.com/images/logo.png" alt=""/>
             </div>
             <NavLink to="/main" activeStyle>
             HOME

@@ -23,6 +23,7 @@ function View() {
 
   useEffect(() => {
     fetchData();
+    // eslint-disable-next-line
   }, [id]);
 
   return (

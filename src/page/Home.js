@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { nanoid } from 'nanoid';
+//import { nanoid } from 'nanoid';
 import axios from 'axios';
 import "./Home.css";
-import personData from "../Data";
+//import personData from "../Data";
 
 
 // Get user information from backend - API
@@ -29,7 +29,7 @@ function Home() {
     if (window.confirm("Are you sure to delete?")) {
      await axios.delete(`http://localhost:5000/api/remove/${id}`).then(()=>{
       console.log("frank");
-      setdata(data.filter(item=>item.id!=id))
+      setdata(data.filter(item=>item.id!==id))
     }
       )
     }

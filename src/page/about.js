@@ -38,7 +38,7 @@ monitor and automate their farmland.
         
 
                     <div className="image">
-                      <img className="image" src={"./assets/elz.png.jpg"}/>
+                      <img className="image" src={"./assets/elz.png.jpg"}  alt=""/>
                       
                       </div> 
                         

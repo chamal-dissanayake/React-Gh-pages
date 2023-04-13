@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import './Edit.css';
-import { Link,useParams } from "react-router-dom";
+import {useParams } from "react-router-dom";
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
-import { toast } from 'react-toastify';
+//import { toast } from 'react-toastify';
 
 const Edit = () => {
   const navigate = useNavigate();
@@ -30,9 +30,9 @@ const Edit = () => {
   }
 
   useEffect(() => {
-    fetchData();
-   
 
+    fetchData();
+    // eslint-disable-next-line
   },[] );
 
   const handleSubmit = async (e) => {
@@ -48,6 +48,8 @@ const Edit = () => {
    
 
   }
+
+  console.log(data,"hello");
 
 
   return (

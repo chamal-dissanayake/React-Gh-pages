@@ -1,4 +1,4 @@
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Edit from "./page/Edit";
 import Delete from "./page/Delete";
@@ -11,14 +11,14 @@ import Navbar from './NavbarMain/Navbar';
 
 import Main from './page/Main';
 import About from './page/about';
-import Details from './page/details';
+//import Details from './page/details';
 
 import Contact from './page/Contact';
   
 
 function App() {
   return (
-    <Router>
+    <Router basename="/React-Gh-pages">
       <Navbar />
       <Routes>
       <Route exact path='/main' element={<Main />} />
